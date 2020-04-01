@@ -34,7 +34,7 @@ struct HomographyDecomposition
   Vector3d n;
 
   // Resolved  Composition
-  Sophus::SE3 T; //!< second from first
+  Sophus::SE3 T; // second from first
   int score;
 };
 
